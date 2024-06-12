@@ -6,3 +6,8 @@ export interface Prediction {
     secondary_text: string;
   };
 }
+
+export interface AutocompleteResponse {
+  predictions: Prediction[];
+  status: 'OK' | 'ZERO_RESULTS';
+}
