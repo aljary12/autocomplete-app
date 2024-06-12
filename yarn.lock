@@ -2352,7 +2352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/babel-preset@npm:0.74.84":
+"@react-native/babel-preset@npm:0.74.84, @react-native/babel-preset@npm:^0.74.0":
   version: 0.74.84
   resolution: "@react-native/babel-preset@npm:0.74.84"
   dependencies:
@@ -2529,7 +2529,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/metro-config@npm:0.74.84":
+"@react-native/metro-config@npm:^0.74.0":
   version: 0.74.84
   resolution: "@react-native/metro-config@npm:0.74.84"
   dependencies:
@@ -2569,6 +2569,15 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 50db3831efe3d0d4d995e4ac26a88843489197acff4ab6e1684f9059c80ff16e14475bf79b74926b9884198afffd10748c44d208431c17429b23ef573fb1c8c6
+  languageName: node
+  linkType: hard
+
+"@rnx-kit/align-deps@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "@rnx-kit/align-deps@npm:2.5.0"
+  bin:
+    rnx-align-deps: lib/index.js
+  checksum: ac9790da08a6dfdadfe73f58e32b5cba4c60f861387ce013350b4eb66b39ca5c7f0e41366a22d87d9e03b82cd736f1e142b2554df0f2e85d14b8f49dab0d4a14
   languageName: node
   linkType: hard
 
@@ -2996,30 +3005,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"AutocompleteApp@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "AutocompleteApp@workspace:."
-  dependencies:
-    "@babel/core": ^7.20.0
-    "@babel/preset-env": ^7.20.0
-    "@babel/runtime": ^7.20.0
-    "@react-native/babel-preset": 0.74.84
-    "@react-native/eslint-config": 0.74.84
-    "@react-native/metro-config": 0.74.84
-    "@react-native/typescript-config": 0.74.84
-    "@types/react": ^18.2.6
-    "@types/react-test-renderer": ^18.0.0
-    babel-jest: ^29.6.3
-    eslint: ^8.19.0
-    jest: ^29.6.3
-    prettier: 2.8.8
-    react: 18.2.0
-    react-native: 0.74.2
-    react-test-renderer: 18.2.0
-    typescript: 5.0.4
-  languageName: unknown
-  linkType: soft
-
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -3347,6 +3332,31 @@ __metadata:
   checksum: 2b849695b465d93ad44c116220dee29a5aeb63adac16c1088983c339b0de57d76e82533e8e364a93a9f997f28bbfc6a92948cefc120652bd07f3b59f8d75cf2b
   languageName: node
   linkType: hard
+
+"autocomplete-app@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "autocomplete-app@workspace:."
+  dependencies:
+    "@babel/core": ^7.20.0
+    "@babel/preset-env": ^7.20.0
+    "@babel/runtime": ^7.20.0
+    "@react-native/babel-preset": ^0.74.0
+    "@react-native/eslint-config": 0.74.84
+    "@react-native/metro-config": ^0.74.0
+    "@react-native/typescript-config": 0.74.84
+    "@rnx-kit/align-deps": ^2.5.0
+    "@types/react": ^18.2.6
+    "@types/react-test-renderer": ^18.0.0
+    babel-jest: ^29.6.3
+    eslint: ^8.19.0
+    jest: ^29.2.1
+    prettier: 2.8.8
+    react: 18.2.0
+    react-native: ^0.74.0
+    react-test-renderer: 18.2.0
+    typescript: 5.0.4
+  languageName: unknown
+  linkType: soft
 
 "available-typed-arrays@npm:^1.0.7":
   version: 1.0.7
@@ -6380,7 +6390,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^29.6.3":
+"jest@npm:^29.2.1":
   version: 29.7.0
   resolution: "jest@npm:29.7.0"
   dependencies:
@@ -7944,7 +7954,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native@npm:0.74.2":
+"react-native@npm:^0.74.0":
   version: 0.74.2
   resolution: "react-native@npm:0.74.2"
   dependencies:
