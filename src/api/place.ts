@@ -1,6 +1,11 @@
-import axios, {AxiosInstance, InternalAxiosRequestConfig} from 'axios';
+import axios, {
+  AxiosInstance,
+  AxiosResponse,
+  InternalAxiosRequestConfig,
+} from 'axios';
 import * as config from './config';
 import Config from 'react-native-config';
+import {Prediction} from '../types/place';
 
 class Place {
   private api: AxiosInstance;
@@ -20,7 +25,9 @@ class Place {
     return request;
   }
 
-  autocomplete(params: {input: string}) {
+  autocomplete(params: {
+    input: string;
+  }): Promise<AxiosResponse<{predictions: Prediction[]}, any>> {
     return this.api.get('autocomplete/json', {
       params: {...params, components: 'country:my'},
     });
