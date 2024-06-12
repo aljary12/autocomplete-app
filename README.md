@@ -49,3 +49,7 @@ yarn ios
 If everything is set up _correctly_, you should see the app running in _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+
+## Iphone Example
+https://github.com/aljary12/autocomplete-app/assets/37587027/818d7803-72ae-41cd-bcdf-f4cd22a03446
+
