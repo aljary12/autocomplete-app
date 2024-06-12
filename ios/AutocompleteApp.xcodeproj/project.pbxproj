@@ -12,9 +12,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3CFD6D9CFF2348C4BB0E055E /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9F706B4B6BF4128A152C829 /* antfill.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-AutocompleteApp-AutocompleteAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AutocompleteApp-AutocompleteAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		99B4E38F17C64A5784B760B8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9C0C08CD45FB3F7F38009CBC /* PrivacyInfo.xcprivacy */; };
+		E0150BFDF47D49BFB2EFED8B /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE2582490984DA582E3BBD3 /* antoutline.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AutocompleteApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AutocompleteApp-AutocompleteAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutocompleteApp-AutocompleteAppTests.release.xcconfig"; path = "Target Support Files/Pods-AutocompleteApp-AutocompleteAppTests/Pods-AutocompleteApp-AutocompleteAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9C0C08CD45FB3F7F38009CBC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = AutocompleteApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AFE2582490984DA582E3BBD3 /* antoutline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = antoutline.ttf; path = "../node_modules/@ant-design/icons-react-native/fonts/antoutline.ttf"; sourceTree = "<group>"; };
+		B9F706B4B6BF4128A152C829 /* antfill.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = antfill.ttf; path = "../node_modules/@ant-design/icons-react-native/fonts/antfill.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -84,6 +88,16 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		119435EE24B242AFAF44EF0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9F706B4B6BF4128A152C829 /* antfill.ttf */,
+				AFE2582490984DA582E3BBD3 /* antoutline.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* AutocompleteApp */ = {
@@ -127,6 +141,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				119435EE24B242AFAF44EF0F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +264,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				99B4E38F17C64A5784B760B8 /* PrivacyInfo.xcprivacy in Resources */,
+				3CFD6D9CFF2348C4BB0E055E /* antfill.ttf in Resources */,
+				E0150BFDF47D49BFB2EFED8B /* antoutline.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,4 @@
-import {View, Text} from 'react-native';
+import {View, Text} from '@ant-design/react-native';
 import React from 'react';
 
 function HomeScreen() {
