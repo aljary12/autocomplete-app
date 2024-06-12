@@ -5,7 +5,7 @@ import axios, {
 } from 'axios';
 import * as config from './config';
 import Config from 'react-native-config';
-import {AutocompleteResponse} from '../types/place';
+import {AutocompleteResponse, DetailResponse} from '../types/place';
 
 class Place {
   private api: AxiosInstance;
@@ -33,7 +33,9 @@ class Place {
     });
   }
 
-  detail(params: {place_id: string}) {
+  detail(params: {
+    place_id: string;
+  }): Promise<AxiosResponse<DetailResponse, any>> {
     return this.api.get('details/json', {
       params: {
         ...params,

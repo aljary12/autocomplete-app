@@ -23,7 +23,7 @@ export default function NavBar(props: Props) {
     <Flex style={[styles.container, containerStyle]}>
       {back && (
         <TouchableOpacity onPress={() => navigation.goBack()}>
-          <Icon name="arrow-left" size={24} />
+          <Icon name="arrow-left" size={24} color="black" />
         </TouchableOpacity>
       )}
 
@@ -44,5 +44,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 20,
     fontWeight: '700',
+    color: 'black',
   },
 });

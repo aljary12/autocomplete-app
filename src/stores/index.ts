@@ -1,9 +1,11 @@
 import {configureStore} from '@reduxjs/toolkit';
 import searchReducer from './search-slice';
+import placeReducer from './place-slice';
 
 export const store = configureStore({
   reducer: {
     search: searchReducer,
+    place: placeReducer,
   },
 });
 
